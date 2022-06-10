@@ -1,5 +1,4 @@
 
-
 btnCep.addEventListener('click', (e)=>{
     e.preventDefault(); 
     validaCep();   
@@ -20,7 +19,7 @@ function validaCep(){//valida o cep, verificando se foi digitado 8 digitos e faz
         alert(erro);
     }
     cep.value = " ";
-    console.log(bairro.value);
+    //console.log(bairro.value);
 }
 function requisicao(url){ // faz a requisição
         $.ajax({
