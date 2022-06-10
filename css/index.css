@@ -1,0 +1,39 @@
+header > .navbar{
+    height: 4rem;
+}
+
+.link{
+    cursor: pointer;
+}
+
+.link:hover{
+    transform: scale(1.01);
+    opacity: .8;
+}
+
+.link:active{
+    transform: scale(0.95);
+}
+
+.dropdown-menu{
+    width: 150px !important;
+    left: -70px !important;
+}
+
+.carousel-item{
+    height: calc(100vh - 4rem);
+}
+
+.area-conteudo {
+     padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer {
+    padding: 35px;
+    border-top: 3px solid #ddd;
+    margin-top: 35px;
+}
+.alert-color{
+    background-color: #A9A9A9 !important;
+}

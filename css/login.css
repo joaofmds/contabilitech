@@ -1,0 +1,14 @@
+
+.bg {
+    background-image: url(../img/login.webp);
+    background-position: center center;
+}  
+
+.paragrafo-resultado, .invalid {
+    background: rgb(109, 255, 182);
+    padding: 10px 20px;
+}
+
+.invalid {
+    background-color: rgb(255, 150, 150);
+}
