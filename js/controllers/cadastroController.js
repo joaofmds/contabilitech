@@ -12,13 +12,13 @@ function validaCep(){//valida o cep, verificando se foi digitado 8 digitos e faz
             requisicao(url); 
         
         }else{
-            throw new(`O Cep digitado não possui 8 digitos`)
+            alert(`O Cep digitado não possui 8 digitos`);
         }
 
     }catch(erro){   
         alert(erro);
     }
-    cep.value = " ";
+    cep.value = "";
     //console.log(bairro.value);
 }
 function requisicao(url){ // faz a requisição
@@ -30,9 +30,5 @@ function requisicao(url){ // faz a requisição
                // nome.textContent =`CEP: ${result.cep} `;
                 buscaObjeto(result);
             },
-            error: function(err) {
-                //console.log(err)
-                alert(`O CEP não existe`);
-            }
         }); 
 }
