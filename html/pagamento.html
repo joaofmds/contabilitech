@@ -92,7 +92,7 @@
                   </div>
       
                 </div>
-                <a href="./login.html"><button class="btn btn-outline-light" type="button">Login</button></a>
+                <a href="./login.html"><button class="btn btn-outline-light" type ="button">Login</button></a>
               </form>
             </div>
           </div>
@@ -171,15 +171,15 @@
             <fieldset>
                 <label for="card-number">Número do Cartão</label>
                 <div class="cartao-input">
-                    <input type="num" id="card-number" class="input-cart-number" maxlength="4" />
-                    <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" />
-                    <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" />
-                    <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" />
+                    <input type="num" id="card-number" class="input-cart-number" maxlength="4" required/>
+                    <input type="num" id="card-number-1" class="input-cart-number" maxlength="4" required/>
+                    <input type="num" id="card-number-2" class="input-cart-number" maxlength="4" required/>
+                    <input type="num" id="card-number-3" class="input-cart-number" maxlength="4" required/>
                 </div>
             </fieldset>
             <fieldset>
                 <label for="card-holder">Nome do Titular</label>
-                <input type="text" id="card-holder" />
+                <input type="text" id="card-holder" required/>
             </fieldset>
             <fieldset class="fieldset-expiration">
                 <label for="card-expiration-month">Data de Validade</label>
@@ -201,26 +201,26 @@
                     </select>
                 </div>
                 <div class="select">
-                    <select id="card-expiration-year">
+                    <select id="card-expiration-year" required>
                         <option></option>
-                        <option>2016</option>
-                        <option>2017</option>
-                        <option>2018</option>
-                        <option>2019</option>
-                        <option>2020</option>
-                        <option>2021</option>
                         <option>2022</option>
                         <option>2023</option>
                         <option>2024</option>
                         <option>2025</option>
+                        <option>2026</option>
+                        <option>2027</option>
+                        <option>2028</option>
+                        <option>2029</option>
+                        <option>2030</option>
+                        <option>2031</option>
                     </select>
                 </div>
             </fieldset>
             <fieldset class="fieldset-ccv">
                 <label for="card-ccv">CVV</label>
-                <input type="text" id="card-ccv" maxlength="3" />
+                <input type="text" id="card-ccv" maxlength="3" required/>
             </fieldset>
-            <button class="btn"><i class="fa fa-lock"></i>Efetuar Pagamento</button>
+            <button class="bto"><i class="fa fa-lock"></i>Efetuar Pagamento</button>
         </form>
     </div>
     <footer class="container">
